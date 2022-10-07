@@ -27,7 +27,7 @@
 - Config option for [**Mysql-Async**](https://github.com/brouznouf/fivem-mysql-async) **,** [**Ghmattisql**](https://github.com/GHMatti/ghmattimysql) **or** [**OxMySQL**](https://github.com/overextended/oxmysql)
 - Config option for multiple notification systems. ([**T-Notify**](https://github.com/TasoOneAsia/t-notify), [**Mythic-Notify**](https://github.com/FlawwsX/mythic_notify), [**pNotify**](https://forum.cfx.re/t/release-pnotify-in-game-js-notifications-using-noty/20659) and **ESX Notifications**.)
 - Config option for [**Mythic Progress Bar**](https://github.com/ONyambura/mythic_progbar) .
-- Config option to restrict it to the vehicle owner. (Requires you to set [**Mysql-Async**](https://github.com/brouznouf/fivem-mysql-async) **or** [**Ghmattisql**](https://github.com/GHMatti/ghmattimysql) to true.)
+- Config option to restrict it to the vehicle owner. (Requires you to set [**Mysql-Async**](https://github.com/brouznouf/fivem-mysql-async) **,** [**Ghmattisql**](https://github.com/GHMatti/ghmattimysql) *or* [**OxMySQL**](https://github.com/overextended/oxmysql) to true.)
 - Config option to allow the player to apply multiple fake plates.
 
 # Dependencies (Optional)
