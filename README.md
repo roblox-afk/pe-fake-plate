@@ -24,7 +24,7 @@
 *Any configuration is set within ether the [**cl_config.lua**](https://github.com/project-error/pe-fake-plate/blob/main/config/cl_config.lua) or the [**sv_config.lua**](https://github.com/project-error/pe-fake-plate/blob/main/config/sv_config.lua).*
 
 - Config option to change the identifier that is being used easily.
-- Config option for [**Mysql-Async**](https://github.com/brouznouf/fivem-mysql-async) **or** [**Ghmattisql**](https://github.com/GHMatti/ghmattimysql).
+- Config option for [**Mysql-Async**](https://github.com/brouznouf/fivem-mysql-async) **,** [**Ghmattisql**](https://github.com/GHMatti/ghmattimysql) **or** [**OxMySQL**](https://github.com/overextended/oxmysql)
 - Config option for multiple notification systems. ([**T-Notify**](https://github.com/TasoOneAsia/t-notify), [**Mythic-Notify**](https://github.com/FlawwsX/mythic_notify), [**pNotify**](https://forum.cfx.re/t/release-pnotify-in-game-js-notifications-using-noty/20659) and **ESX Notifications**.)
 - Config option for [**Mythic Progress Bar**](https://github.com/ONyambura/mythic_progbar) .
 - Config option to restrict it to the vehicle owner. (Requires you to set [**Mysql-Async**](https://github.com/brouznouf/fivem-mysql-async) **or** [**Ghmattisql**](https://github.com/GHMatti/ghmattimysql) to true.)
@@ -32,8 +32,8 @@
 
 # Dependencies (Optional)
 
-- [Mysql-Async](https://github.com/brouznouf/fivem-mysql-async) **or** [**Ghmattisql**](https://github.com/GHMatti/ghmattimysql) You will need to set the config to `true`/`false` within the [**sv_config.lua**](https://github.com/project-error/pe-fake-plate/blob/main/config/sv_config.lua). 
-If using `Ghmattisql`, be sure to comment out `'@mysql-async/lib/MySQL.lua',` within the [**fxmanifest**](hhttps://github.com/project-error/pe-fake-plate/blob/faa27fd64019a21f88665af9859f1f4e95204fa0/fxmanifest.lua#L12).
+- [Mysql-Async](https://github.com/brouznouf/fivem-mysql-async) **and** [**Ghmattisql**](https://github.com/GHMatti/ghmattimysql) **or** [**OxMySQL**](https://github.com/overextended/oxmysql) You will need to set the config to `true`/`false` within the [**sv_config.lua**](https://github.com/project-error/pe-fake-plate/blob/main/config/sv_config.lua). 
+If using `Ghmattisql` or `OxMySQLl`, be sure to comment out `'@mysql-async/lib/MySQL.lua',` within the [**fxmanifest**](hhttps://github.com/project-error/pe-fake-plate/blob/faa27fd64019a21f88665af9859f1f4e95204fa0/fxmanifest.lua#L12).
 
 # Supported Notifications
 
