@@ -14,8 +14,12 @@ if Config.useGhmattimysql then
     fetchScalar         = exports.ghmattimysql.scalar 
 end
 
+if Config.useOxMySQL then
+    fetchScalar         = exports.oxmysql.scalar
+end
+
 if Config.useESX then
-    TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+    ESX = exports["es_extended"]:getSharedObject()
 
     ESX.RegisterUsableItem('plate', function(source)
         -- If any issues, make xPlayer a local variable.
