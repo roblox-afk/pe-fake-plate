@@ -4,6 +4,7 @@ Config.dropPlayer           = true -- Drops player if their client and server pl
 -- Config Variables (Database)
 Config.useMysqlAsync        = true
 Config.useGhmattimysql      = false
+Config.useOxMySQL           = false
 Config.Identifier           = 'license:'
 Config.databaseName         = 'owned_vehicles'
 
