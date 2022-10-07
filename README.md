@@ -32,7 +32,7 @@
 
 # Dependencies (Optional)
 
-- [Mysql-Async](https://github.com/brouznouf/fivem-mysql-async) **and** [**Ghmattisql**](https://github.com/GHMatti/ghmattimysql) **or** [**OxMySQL**](https://github.com/overextended/oxmysql) You will need to set the config to `true`/`false` within the [**sv_config.lua**](https://github.com/project-error/pe-fake-plate/blob/main/config/sv_config.lua). 
+- [Mysql-Async](https://github.com/brouznouf/fivem-mysql-async) **,** [**Ghmattisql**](https://github.com/GHMatti/ghmattimysql) **or** [**OxMySQL**](https://github.com/overextended/oxmysql) You will need to set the config to `true`/`false` within the [**sv_config.lua**](https://github.com/project-error/pe-fake-plate/blob/main/config/sv_config.lua). 
 If using `Ghmattisql` or `OxMySQLl`, be sure to comment out `'@mysql-async/lib/MySQL.lua',` within the [**fxmanifest**](hhttps://github.com/project-error/pe-fake-plate/blob/faa27fd64019a21f88665af9859f1f4e95204fa0/fxmanifest.lua#L12).
 
 # Supported Notifications
